@@ -19,13 +19,12 @@ body {
   justify-content: start;
   align-items: end;
   list-style-type: circle;
-  gap: 13px;
-  font-size: 18px;
-  font-weight: normal;
+  gap: 32px;
 }
 
-.header__links-list li:not(:last-child) {
-  margin-right: 18px;
+.header__links-list-item {
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__links-list-item_no-bullit {
@@ -247,6 +246,10 @@ body {
 .about__logo-image {
   margin: 63px 46px;
   width: 148px;
+}
+
+.about__text-block {
+  padding-left: 25px;
 }
 
 .about__title {
